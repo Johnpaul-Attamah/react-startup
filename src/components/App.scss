@@ -1,0 +1,17 @@
+#wrapper {
+    letter-spacing: 1px;
+    padding-top: 40px;
+    font-family: 'Roboto Mono' serif;
+
+    & > div {
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        justify-content: center;
+        margin: 0 auto;
+
+        & h1 {
+            color: #555;
+        }
+    }
+}
